@@ -1,6 +1,6 @@
-import os
-from pathlib import Path
-import logging
+import os  #Provides functions to interact with the operating system.
+from pathlib import Path  #Handles paths in a way that works on different operating systems
+import logging  #Allows logging messages about program execution
 logging.basicConfig(level = logging.INFO)
 project_name = 'mlproject'
 list_of_files = [
@@ -17,6 +17,7 @@ list_of_files = [
             f"src/{project_name}/exception.py",
             f"src/{project_name}/logger.py",
             f"src/{project_name}/utils.py",
+            "main.py",
             "app.py",
             "Dockerfile",
             "requirement.txt",
